@@ -24,6 +24,10 @@ a {
   cursor: pointer;
   color: #1870db;
 }
+a:hover
+{
+  color: black;
+}
 button {
   background-color: #387ed1;
   color: #fff;
