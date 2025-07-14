@@ -1,0 +1,129 @@
+@media (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+  header {
+    padding: 12px 30px;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .nav_b_container {
+    width: 370px;
+    background: #fff;
+    height: auto;
+    position: absolute;
+    top: 70px;
+    right: 150px;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.4rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 12px 20px;
+    display: none;
+    transition: 0.6s ease-in-out;
+  }
+  section {
+    padding: 12px 2%;
+  }
+  .nav-links {
+    background: rgb(174, 169, 169);
+    position: absolute;
+    top: 50px;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    padding: 55px;
+    z-index: 99;
+    height: 0;
+    transition: 0.4s ease-in-out;
+    overflow: hidden;
+    opacity: 0;
+  }
+  header ul li {
+    margin: 0 10px;
+  }
+  .nav-links li {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  .nav-links li:hover {
+    color: white;
+  }
+  header nav #menu-icon {
+    display: block;
+  }
+  .active {
+    height: 100vh;
+    opacity: 1;
+  }
+  /* home */
+  .home {
+    min-height: 75vh;
+  }
+  .home img {
+    width: 400px;
+  }
+  .home .home_contents h2 {
+    font-size: 1.6rem;
+  }
+  .home .home_contents p {
+    font-size: 0.7rem;
+    width: 60%;
+    text-align: center;
+  }
+  .home .home_contents button {
+    font-size: 0.8rem;
+  }
+  /* explore section */
+  .explore .explore-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .explore .explore-container .left-explore {
+    padding-left: 25px;
+  }
+  .explore .explore-container .left-explore p {
+    width: 95%;
+  }
+  .explore .explore-container .right_explore img {
+    width: 350px;
+  }
+  .explore .press-logo img {
+    width: 350px;
+  }
+  .pricing .price-container .price_imgx {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .pricing .price-container .price_imgx .price_img {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .pricing .price-container .price_imgx .price_img p {
+    text-align: center;
+  }
+  .market_ed .marker_bx__ee h3 {
+    font-size: 1.2rem;
+    font-weight: 550;
+  }
+  .market_ed .marker_bx__ee p {
+    width: 60%;
+  }
+  .market_ed img {
+    width: 300px;
+  }
+  footer .footer_start {
+    flex-direction: column;
+  }
+  footer {
+    padding: 15px 2%;
+  }
+  .account .ac_bx_c p {
+    color: var(--text-head);
+    padding: 15px 0 15px 0;
+  }
+  .account {
+    padding: 30px 3% 10px;
+    margin-top: 40px;
+  }
+}
